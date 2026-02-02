@@ -18,7 +18,7 @@ def parse_args():
 
     parser.add_argument("--device", default=0, help="cuda device, i.e. 0 or cpu") 
 #    parser.add_argument("--data_path", type=str, default="/dvs_dataset/N-CARS")
-    parser.add_argument("--data_path", type=str, default="/kaggle/input/ncars-original/Prophesee_Dataset_n_cars")
+    parser.add_argument("--data_path", type=str, default="/kaggle/working/spikefpn/ncars_framing")
     parser.add_argument("--log_path", type=str, default="./log")
 
     # Basic setting
