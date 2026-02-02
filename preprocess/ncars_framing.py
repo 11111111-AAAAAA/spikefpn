@@ -11,7 +11,7 @@ def parse_args():
     #parser.add_argument("-rp", "--root_path", type=str, default="/dvs_dataset/N-CARS/original")
     #parser.add_argument("-sp", "--save_path", type=str, default="/dvs_dataset/N-CARS")
     parser.add_argument("-rp", "--root_path", type=str, default="/kaggle/input/ncars-original/Prophesee_Dataset_n_cars")
-    parser.add_argument("-sp", "--save_path", type=str, default="/kaggle/input/ncars-original")
+    parser.add_argument("-sp", "--save_path", type=str, default="/kaggle/working/spikefpn/ncars_framing")
     parser.add_argument("-dc", "--data_class", type=str, default="cars", help="cars or background")
     parser.add_argument("-dm", "--data_mode", type=str, default="train", help="train or test")
     return parser.parse_args()
