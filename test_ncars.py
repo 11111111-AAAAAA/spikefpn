@@ -14,7 +14,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="N-CARS Classification")
     
 #    parser.add_argument("--data_path", type=str, default="/dvs_dataset/N-CARS")
-    parser.add_argument("--data_path", type=str, default="/kaggle/input/ncars-dataset")
+    parser.add_argument("--data_path", type=str, default="/kaggle/input/ncars-original/Prophesee_Dataset_n_cars")
     parser.add_argument("--device", default="0", help="CUDA device, i.e. 0 or cpu")
     
     # Basic setting
